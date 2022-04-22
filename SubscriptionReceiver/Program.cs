@@ -7,7 +7,7 @@ namespace SubscriptionReceiver
     class Program
     {
         // connection string to your Service Bus namespace
-        static string connectionString = "Endpoint=sb://syncagent26928sbns.servicebus.windows.net/;SharedAccessKeyName=SyncAgentSharedAccessKey;SharedAccessKey=nij0oZkVV39pge/X+yaMzah+ZENn63T2AysgA0Te/9c=";
+        static string connectionString = "Endpoint=sb://your bus name.servicebus.windows.net/;SharedAccessKeyName=SyncAgentSharedAccessKey;SharedAccessKey= your bus key";
 
         // name of the Service Bus topic
         static string topicName = "ehrupdatebroker";
